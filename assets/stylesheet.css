@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+transition-duration: 300ms;
+}
+
+.container {
+margin-left: 0px;
+width: 300px;
+height: 400px;
+/* overflow: hidden; */
+border-radius: 25px;
+}
+
+.card {
+widht: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.card:hover {
+filter: brightness(0.7) blur(1px);
+}
+
+.container:hover {
+}
+
+.savebutton {
+background-color: red;
+height: 40px;
+width: 70px;
+border-radius: 20px;
+border: 0px;
+color: white;
+float: right;
+}
+
+
